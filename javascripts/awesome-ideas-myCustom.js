@@ -1,4 +1,4 @@
-   
+
 /*****FOR single POST PAGE FORMAT*****/
 (function($){
   	$('.variation_pro a').on('click',function(){
@@ -8,26 +8,26 @@
         $(varion_select_id).val(variation_select_val);
         $('.variations_li').removeClass('selected');
         $(this).closest('.variations_li').addClass('selected');
-        $(varion_select_id).trigger('change');      
-        
+        $(varion_select_id).trigger('change');
+
     });
     $(".lktr").on("click",function()
-	{			
+	{
 
-		var post_id=$(this).data("src");			
-		var data={action:"postLike",post_id:post_id};		
+		var post_id=$(this).data("src");
+		var data={action:"postLike",post_id:post_id};
 		$.post(aisettings.ajaxurl,data,function(res)
-		{	
+		{
 			if(res!=-1)
-			{		
-				$(".p_like_"+post_id).html(res);	
-                                
+			{
+				$(".p_like_"+post_id).html(res);
+
 			}
 			else
-			{					
-				alert("Already Liked");	
+			{
+				alert("Already Liked");
 			}
-		});			
+		});
 	});
 	if(jQuery('.work-fig').length){
            var container = document.querySelector('.work-fig');
@@ -41,6 +41,5 @@
                });
            });
             }
-    
- })(jQuery);
 
+ })(jQuery);

@@ -6347,12 +6347,11 @@ footer {
 
 /* ------------- wrapper -----------*/
 .fp-section.fp-table {
-  height: 100vh !important;
   width: 100%;
   position: relative; }
 
 .fp-tableCell, .fp-section {
-  height: auto !important; }
+  height: auto; }
 
 .addheight {
   height: auto !important; }

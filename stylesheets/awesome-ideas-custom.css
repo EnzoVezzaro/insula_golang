@@ -477,7 +477,7 @@ img.mobile-logo{display:block;}
 .productone .product-fig{width:100%;}
 }
 @media (max-width:768px) {
-.fp-section.fp-table{height:auto!important;width:100%;position:relative;}
+.fp-section.fp-table{height:auto;width:100%;position:relative;}
 }
 .woocommerce .woocommerce-ordering{margin: 20px 0 !important;width: 100%;}
 @media (max-width:767px) {

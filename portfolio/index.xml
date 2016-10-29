@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>INSULA | Digital Studio</title>
-    <link>http://www.insuladigitalstudio.com/index.xml</link>
-    <description>Recent content on INSULA | Digital Studio</description>
+    <title>Portfolio-rsses on INSULA | Digital Studio</title>
+    <link>http://www.insuladigitalstudio.com/portfolio/index.xml</link>
+    <description>Recent content in Portfolio-rsses on INSULA | Digital Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Oct 2016 13:49:24 -0700</lastBuildDate>
-    <atom:link href="http://www.insuladigitalstudio.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.insuladigitalstudio.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vape Cloud Shop</title>
