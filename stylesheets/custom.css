@@ -1,146 +1,83 @@
+@media screen and (max-width: 900px) {
+  .container-section1{
+    min-width: 100% !important;
+    min-height: 100% !important;
+  }
+  .row-section1{
 
-img.wp-smiley, img.emoji {
-  display: inline !important;
-  border: none !important;
-  box-shadow: none !important;
-  height: 1em !important;
-  width: 1em !important;
-  margin: 0 .07em !important;
-  vertical-align: -0.1em !important;
-  background: none !important;
-  padding: 0 !important;
   }
-
-#header{
-margin: 0 auto;
-}
-.main-logo img{
-height: auto !important;
-width: auto !important;
-}
-.menu-container{
-display: none;
-}
-.servicepage .container .row{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-/*.vc_single_image-img {*/
-/*transform-origin: bottom center !important;*/
-/*}*/
-.logo-wrap a img{
-width: auto;
-}
-.post-504 {
-background-color: #ca4c4c !important;
-}
-#rev_slider_2_4_wrapper{
-background-color: transparent !important;
-}
-#mail-text {
-width: 100% !important;
-padding-left: 95px !important;
-}
-.mc4wp-form-fields{
-display: none;
-}
-.contact-figc{
-margin-bottom: 20px;
-}
-.textbox-container{
-margin-right: 20px;
-}
-.textarea-container{
-margin-left: 300px;
-margin-right: 20px;
-text-align: right;
-}
-/*.nf-field-container {*/
-/*    width: 45%;*/
-/*} */
-/*.nf-form-content{*/
-/*        width: 80%;*/
-/*        margin-top: 30px;*/
-/*    margin-left: 130px;*/
-/*}*/
-.nf-form-content nf-fields-wrap{
-display: flex;
-width: 100%;
-flex-wrap: wrap;
-justify-content: flex-end;
-}
-.nf-field-label{
-display: none;
-}
-.nf-form-fields-required {
-display: none;
-}
-#nf-field-3 {
-height: auto;
-}
-.wpb_wrapper {
-text-align: right !important;
-}
-footer {
-padding-bottom: 20px !important;
-}
-.footer-lower {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center !important;
-margin-bottom: 0 !important;
-}
-.footer-lower * {
-padding: 0 !important;
-margin: 0 !important;
-}
-.footer-lower p {
-font-size: 12px;
-}
-#logo_footer {
-width: 250px;
-margin-left: -35px !important;
-margin-top: -30px;
-}
-@media screen and (max-width: 768px) {
-  section{
-    width: 100%;
-  }
-  .fp-tableCell {
-    height: 400px !important;
-  }
-  .parallax-container {
-    margin-top: 350px;
-    left: -20px;
-  }
-  #text_back{
+  .parallax-container-section1{
+    display: block !important;
     position: relative;
-    top: -30px;
-    width: 50%;
+    top: -30vh !important;
   }
-  .page-wrapper-1089 {
-    margin-top: -300px;
+  .parallax-container-section1 .parallax-layer{
+    position: absolute;
+    right: 0;
+    left: 0;
   }
-  .page-wrapper-1089 .wpb_column {
-    margin-top: 350px;
-    margin-bottom: 70px;
-  }
-  .seccion3 {
-    top: -150px;
-    margin-top: 200px !important;
+  .section2{
     position: static !important;
+    height: auto;
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+            flex-direction: row !important;
+    justify-content: center !important;
+      -webkit-box-align: center !important;
+      -moz-box-align: center !important;
+      -ms-flex-align: center !important;
+  }
+  .section2 .parallax-layer{
+    position: relative;
+  }
+  .section2 .parallax-layer img{
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
   }
   #back-about{
-    top: -50px !important;
+    top: 0 !important;
+    width: 100% !important;
     right: 0 !important;
+    left: 20% !important;
+  }
+  #graphics_front{
+    top: -50px !important;
+    width: 100% !important;
+    left: -20% !important;
+  }
+  .seccion3 {
+    margin-top: 50px !important;
+    position: static !important;
   }
   #juice, #food, #camera, #headphone, #glasses {
     display: none;
   }
+  #laptop{
+    position: static;
+  }
   .service-figcaption{
-    margin-top: 200px !important;
+  }
+  .section4{
+      margin-bottom: 100px !important;
+  }
+  .works{
+    margin-right: auto;
+  }
+  .img-post{
+    margin: 10px;
+    width: auto !important;
   }
 h3{
 font-size: 48px !important;
@@ -149,8 +86,15 @@ h3, h5, p {
   margin-bottom: 20px !important;
 }
 .footer .container .row {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+      -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 nf-field {
 width: 100% !important;
