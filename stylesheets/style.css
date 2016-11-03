@@ -250,3 +250,29 @@ margin-top: -30px;
       left: 0;
       z-index: 0;
 }
+
+.works{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works a{
+  width: 45%;
+  height: 45%;
+  margin: 1%;
+}
+
+.modal-container{
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.portfolio-container {
+}
+
+.portfolio-items {
+  text-align: center;
+  display: none;
+}
